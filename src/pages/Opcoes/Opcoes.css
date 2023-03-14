@@ -1,0 +1,25 @@
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.opcoes__botao {
+    background-color: #4B69FD;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    height: 50px;
+    text-transform: uppercase;
+    width: 320px;
+    transition: all .2s;
+}
+
+.opcoes__botao:hover {
+    background-color: #FE652B;
+    transition: all .2s;
+}

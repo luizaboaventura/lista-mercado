@@ -1,0 +1,49 @@
+.lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista__lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.lista__card {
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #969696;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    width: 450px;    
+}
+
+.lista__item {
+    text-decoration: none;  
+}
+
+.lista__item--completado{
+    text-decoration: line-through;  
+}
+
+.lista__checkbox{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.lista__container {
+    width: 310px;
+    display: flex;
+    align-items: center;
+}
+
+.lista__lixeira {
+    cursor: pointer;
+    margin-left: 10px;
+}

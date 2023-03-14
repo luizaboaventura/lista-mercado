@@ -1,0 +1,62 @@
+.formLogin__campos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.formLogin__campos input {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #969696;
+    height: 50px;
+    width: 320px;
+    padding-left: 20px;
+}
+
+.formLogin__campos label {
+    padding-left: 16px;
+}
+
+.formLogin__texto {
+    font-size: 0.9em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.formLogin__texto--link {
+    cursor: pointer;
+}
+
+.formLogin__texto--link:hover {
+    color: #757373;
+}
+
+.formLogin__botao{
+    background-color: #4B69FD;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 50px;
+    text-transform: uppercase;
+    width: 320px;
+    transition: all .2s;
+}
+
+.formLogin__botao:hover {
+    background-color: #FE652B;
+    transition: all .2s;
+}
+
+.formLogin__botao--entrar{
+    background-color: #FE652B;
+    font-weight: 600;
+    transition: all .2s;
+}
+
+.formLogin__botao--entrar:hover{
+    background-color: #4B69FD;
+    font-weight: 600;
+    transition: all .2s;
+}
