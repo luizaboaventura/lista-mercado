@@ -7,14 +7,14 @@ import './ContadorQuantidade.css';
 
 export default function ContadorQuantidade () {
 
-    const [quantidade, setQuantidade] = useState(0);
+    const [quantidade, setQuantidade] = useState(1);
 
     function aumentaQuantidade() {
         setQuantidade(quantidade + 1);
     }
 
     function diminuiQuantidade() {
-        if (quantidade > 0) setQuantidade(quantidade - 1);
+        if (quantidade > 1) setQuantidade(quantidade - 1);
     }
 
     return (
